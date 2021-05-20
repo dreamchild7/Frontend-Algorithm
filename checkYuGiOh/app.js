@@ -3,7 +3,7 @@
 
 function checkYuGiOh(n){
     if(isNaN(n)){
-        console.log('invalid number') // check for invalid input
+        console.log(`invalid number: ${n}`) // check for invalid input
     }
     let size = parseInt(n)            // convert input to integer
     let array = []                    // declare an array variable
@@ -31,9 +31,9 @@ function checkYuGiOh(n){
 
 
 })
-    }                                   // eng for loop
+    }                                   // end for loop
 
     console.log(array)                 //check the result
 
 
-}checkYuGiOh("30")                     // call the function
+}checkYuGiOh(12.5)                     // call the function
